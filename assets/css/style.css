@@ -1,9 +1,9 @@
 body {
-    background-color:white;
+    background-color: #dcd9e0;
 }
 
 header {
-    background: #555555;
+    background: #270e47;
     color: #f1f1f1;
 
 }
@@ -12,6 +12,22 @@ footer {
     border-top: black solid thin;
     height:60px;
     margin-top: 40px;
+}
+.menu {
+    color: white;
+    float: right;
+}
+
+.icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    
+    
+}
+.name {
+    font-size: 30px;
 }
 
 .card {
@@ -23,14 +39,24 @@ footer {
     width: 100%
 }
 
-.title {
-    height: 500px;
-    background: url("../pics/titlepic.jpeg");
-    margin-top: 140px;
-    
+.cardsize {
+    height: 250px;
+}
 
+.title {
+ 
+    background: url("../pics/titlepic.jpeg");
+    background-size: 900px;
+    margin-top: 140px;
    
 }
+
+.logo {
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
 
 
 .about-me {
@@ -48,7 +74,10 @@ footer {
 .title-inside {
     text-align: center;
     margin-top: 50px;
-    color: black;
+    color: #071932;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .bottom-row {
